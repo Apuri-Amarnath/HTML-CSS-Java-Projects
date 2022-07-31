@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,25 +8,28 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="box" id="container" draggable="true">
-       <b>DRAG This <span style="color: black ; font-size:larger;">ANY Where</span> in the window!</b> 
+        <b>DRAG This <span style="color: black ; font-size:larger;">ANY Where</span> in the window!</b>
     </div>
+    <div>New div</div>
     <script>
-        document.getElementById("container").addEventListener("mousedown",mdown);
-        document.getElementById("container").addEventListener("mouseup",mup);
-        document.ondrag= function(event){
+        document.getElementById("container").addEventListener("mousedown", mdown);
+        document.getElementById("container").addEventListener("mouseup", mup);
+        document.ondrag = function (event) {
             document.getElementById("container").alert("is draged")''
         }
-        function mdown(){
+        function mdown() {
             alert("mouse is Held");
         }
-        function Dragf(){
+        function Dragf() {
             alert("mouse ");
         }
-        function mup(){
+        function mup() {
             alert("mouse is removed");
         }
-</script>
+    </script>
 </body>
+
 </html>
