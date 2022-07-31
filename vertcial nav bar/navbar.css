@@ -1,0 +1,35 @@
+.navbar nav ul {
+    list-style: none;
+}
+
+nav li {
+    border: 1px solid black;
+    width: 200px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#main_items li {
+    display:block;
+    float: left;
+    background-color: rgb(0, 132, 255);
+}
+
+.submenu_items li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+#main_items li:hover {
+    background-color: rgba(225, 0, 255, 0.425);
+}
+
+#main_items ul {
+    display: none;
+    padding: 0;
+}
+
+#main_items li:hover ul {
+    display: block;
+}

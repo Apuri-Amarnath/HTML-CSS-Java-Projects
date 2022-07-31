@@ -1,0 +1,7 @@
+.box {
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    width: 40%;
+    background-color: red;
+}
