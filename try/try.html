@@ -10,12 +10,12 @@
     <script>
       setInterval( function() {
             for (var i = 0; i < 100; i++) {
-                var changedvalue = document.getElementById("tkno").value + 1;
+                var changedvalue = document.getelmentById("tkno").value + 1;
                 console.log(changedvalue);
 
             }
             console.log(changedvalue);
-            document.getElementById("tkno").innerHTML.value = changedvalue;
+            document.getelmentById("tkno").innerHTML.value = changedvalue;
         },1000)
     </script>
 </head>

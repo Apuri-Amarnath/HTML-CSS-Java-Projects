@@ -10,25 +10,33 @@
 </head>
 
 <body>
-    <div class="box" id="container" draggable="true">
-        <b>DRAG This <span style="color: black ; font-size:larger;">ANY Where</span> in the window!</b>
+
+    <div class="box" id="container">
+        <header>Draggable Element</header>
+        <div class="text">
+            <b>DRAG This <span style="color: rgb(255, 13, 13) ; font-size:larger;">ANY Where</span> in the window!</b>
+        </div>
     </div>
-    <div>New div</div>
     <script>
-        document.getElementById("container").addEventListener("mousedown", mdown);
-        document.getElementById("container").addEventListener("mouseup", mup);
-        document.ondrag = function (event) {
-            document.getElementById("container").alert("is draged")''
+        const box = document.querySelector(".box"),
+            header = box.querySelector("header");
+
+        function ondrag({ movementX, movementY }) {
+            let getposition_of_Box = window.getComputedStyle(box);
+            let leftVal = parseInt(getposition_of_Box.left);
+            let topVal = parseInt(getposition_of_Box.top);
+          //  box.style.left = '${leftVal + movementX}px';
+           // box.style.top = '${topVal + movementY}px';
+            console.log(box.style.top, box.style.left);
         }
-        function mdown() {
-            alert("mouse is Held");
-        }
-        function Dragf() {
-            alert("mouse ");
-        }
-        function mup() {
-            alert("mouse is removed");
-        }
+
+        header.addEventListener("mousedown", () => {
+            header.addEventListener("mousemove", ondrag);
+        });
+        document.addEventListener("mouseup", () => {
+            header.removeEventListener("mousemove", ondrag);
+        });
+
     </script>
 </body>
 
