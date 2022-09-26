@@ -1,0 +1,18 @@
+body{
+    background-color: rgba(64, 73, 201, 0.8);
+}
+.bg{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    height: 700px;
+    width: 500px;
+    transform: translate(-50%,-50%);
+}
+#title{
+    display: block;
+    font-family:monospace;
+    font-style: italic;
+    font-weight:bolder;
+    font-size:30px;
+}
