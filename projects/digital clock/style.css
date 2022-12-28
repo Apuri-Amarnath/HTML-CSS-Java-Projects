@@ -1,0 +1,24 @@
+* {
+    color: chartreuse;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    background-color: black;
+}
+
+.Clock {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%), translateY(-50%);
+}
+
+.date_class {
+    margin-left: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translatex(-50%), translateY(-50%);
+}
