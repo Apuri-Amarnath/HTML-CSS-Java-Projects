@@ -21,8 +21,8 @@ table{
     border-radius: 50%;
 }
 .background{
-    height: 51%;
-    width: 30%;
+    height: auto;
+    width: auto;
     background-color: rgba(235, 143, 6, 0.767);
     position: absolute;
 }
