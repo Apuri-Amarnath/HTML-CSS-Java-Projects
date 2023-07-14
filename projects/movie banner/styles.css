@@ -1,0 +1,48 @@
+body{
+    background-image:url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/orange-color-bg.png");
+}
+.carousel-inner{
+padding: 20px;
+margin-top: 10px;
+}
+.Second-section{
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.heading{
+    font-size: 30px;
+}
+.Second-section button{
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+    color: #ff8348;
+}
+.content{
+    text-align: justify;
+    color: white;
+    padding:0px 20px;
+}
+.third{
+    display: block;
+}
+.similar-movies-heading{
+    color: white;
+    font-size: 30px;
+    padding:  0px 20px;
+    font-weight:normal;
+}
+.items{
+    list-style:none;
+    display: flex;
+    padding: 0 20px;
+}
+.items li{
+    padding: 0 5px;
+    height: 150px;
+    width: 110px;
+}

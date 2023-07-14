@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+html{
+    border: solid #0967d219 5px;
+}
+*{
+    margin: 2%;
+    font-family: Roboto;
+}
+.top-section{
+    height:100px;
+    width:400px;
+    display: flex;
+}
+.top-section .left{
+    height: 100px;
+    width:70%;
+    font-weight: bold;
+}
+.top-section-heading{
+ font-size: 20px;   
+}
+.top-section .right {
+    height:100px;
+    width:30%;
+}
+.covid-19{
+    text-transform: uppercase;
+}
+.top-section-button{
+    border-radius: 10px;
+    background-color:#0967d2;
+    color: white;
+    border:none;
+    margin: 0px 5px;
+    padding: 4px 10px;
+    font-size: 15px;
+    font-weight:lighter;
+}
+.banner{
+    height:100px;
+    width:400px;
+    background-color: #0967d219;
+    border-radius:10px;
+    display:flex;
+    padding: 10px;
+}
+.banner .left{
+    height:100px;
+    width:20%;
+    margin:20px;
+    align-items: center;
+}
+.banner .right{
+    height: 100px;
+    width:80%;
+}
+.banner-heading{
+    font-size: 20px;
+}
+.banner p{
+    font-size: 12px;
+}
+.symptoms{
+    display: block;
+}
+.symptoms h1{
+    font-size: 20px;
+}
+.symptoms-items{
+margin: 0px;
+}
+.symptoms-items ul{
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin:0px;
+    align-items: center;
+}
+.symptoms ul li {
+    height:100px;
+    width: 100px;
+    border-radius:5%;
+    text-align: center;
+    margin-top :10px;
+}
+.symptoms ul li img{
+    margin-top: 10px;
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.one{
+    background-color:#3ebd93; 
+    color: white;
+}
+.two{
+    background-color:#e668a7 ;
+    color: white;
+}
+.three{
+    background-color:#a368fc ;
+    color: white;
+}
+.videos-items
+{
+    height:150px;
+    width:400px;
+    background-color:#e12d3919;
+    border-radius:10px;
+    display:flex;
+    padding: 10px;
+}
+.Videos .left{
+    height:100px;
+    width:20%;
+    margin:20px;
+    align-items: center;
+}
+.Videos .right{
+    height: 100px;
+    width:80%;
+}
+.Videos h1{
+    font-size: 20px;
+}
+.videos-items p{
+    font-size: 15px;
+}
+.videos-heading{
+font-size: 20px;
+font-weight:bold;
+}
