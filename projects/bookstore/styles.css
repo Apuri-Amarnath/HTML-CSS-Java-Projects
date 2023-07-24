@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main {
+    height: 90vh;
+    width: 500px;
+    background-color: #1b1b1b;
+
+}
+.pages{
+    display: none;
+}
+
+.inner-top {
+    padding: 15px;
+}
+
+.heading {
+    font-family: Bree serif;
+    color: white;
+}
+
+.list {
+    display: flex;
+    background-color: #e6f6ff;
+    border-radius: 5px;
+    height: 300px;
+}
+
+.list .left {
+    width: 40%;
+
+}
+
+.list .right {
+    width: 60%;
+    margin: 25px;
+    color: #1b1b1b;
+}
+
+.left img {
+    height: 300px;
+}
+
+.bottom {
+    color: white;
+    padding: 15px
+}
+
+.book-1 {
+    display: flex;
+}
+
+.book-1 .left img {
+    height: 200px;
+}
+
+.book-1 .right {
+    width: 70%;
+    margin: 3%;
+}
+
+.book-2 {
+    display: flex;
+    padding-top: 10px;
+}
+
+.book-2 .left img {
+    height: 200px;
+}
+
+.book-2 .right {
+    width: 70%;
+    margin: 3%;
+}
+
+.book-1 .right-head,
+.book-2,
+.right-head {
+    font-family: bree serif;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+.book-1 .right-para,
+.book-2,
+.right-para {
+    font-family: bree serif;
+    font-size: 15px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.book-1 .right .right-head2,
+.book-2 .right .right-head2 {
+    font-family: "bree serif";
+    font-size: 15px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.heading-btm {
+    font-size: 25px;
+    font-family: "bree serif";
+    padding-bottom: 5px;
+}
+
+.readmore {
+    color: white;
+    background-color: rgb(13, 146, 255);
+    font-family: "Roboto";
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.pages {
+    background-color: #1b1b1b;
+    height: 90vh;
+    width: 500px;
+    text-align: center;
+}
+
+.section1 img {
+    height: 500px;
+}
+
+.section1 {
+    padding: 20px;
+}
+
+.heading-pages {
+    color: white;
+    font-family: "bree serif";
+    padding: 5px;
+}
+
+.heading2-pages {
+    color: #9aa5b1;
+    font-family: "bree serif";
+    font-size: 20px;
+}
+
+.list .right .right-head-1,
+.list .right .right-head2 {
+    color: #183b56;
+    font-family: "bree serif";
+}
+
+.list .right .right-head-1 {
+    font-size: 30px;
+}
+
+.list .right .right-head2 {
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+.right-head-1 {
+    font-family: "bree serif";
+}
+
+.list .right .right-para {
+    font-size: 20px;
+}
+
+.para-pages {
+    color: white;
+    margin: 10px 20px;
+    font-family: "bree serif";
+}
+
+.Back {
+    color: black;
+    background-color: rgb(255, 196, 0);
+    font-family: "Roboto";
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.buy {
+    color: white;
+    font-family: "Roboto";
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    background-color: rgb(13, 146, 255);
+}
