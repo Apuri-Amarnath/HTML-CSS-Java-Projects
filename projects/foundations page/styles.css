@@ -1,0 +1,65 @@
+.top img {
+    height: 420px;
+    width: 600px;
+}
+
+.top {
+    height: 400px;
+    width: 600px;
+
+}
+
+.bottom {
+    position: absolute;
+    top: 380px;
+    height: auto;
+    width: 600px;
+    border-radius: 50px 50px 0px 0px;
+    border: none;
+    background-color: white;
+}
+
+
+.head-1 {
+    color: #323f4b;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "robotoo";
+    text-transform: capitalize;
+    padding: 40px 35px 5px 40px;
+}
+.Text{
+    color:#7b8794 ;
+    padding: 5px 40px;
+
+}
+ul{
+    list-style: none;
+}
+.elements{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+ul li{
+    text-align: center;
+    margin: 0px 15px;
+    padding: 20px 50px;
+    border: 1px solid #cbd2d9;
+    border-radius: 10px;
+}
+ul li img{
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+.head-2{
+    padding: 5% 3px;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+.elements-2{
+    display: flex;
+    justify-content: center;
+    padding:5px 40px;
+}
