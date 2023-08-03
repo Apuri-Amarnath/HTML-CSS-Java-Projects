@@ -1,0 +1,86 @@
+
+.main{
+    background-image: url("https://assets.ccbp.in/frontend/static-website/yoga-bg.png");
+    background-position-x: center;
+    background-position-y: center;
+    background-size: auto;
+    height: auto;
+    width: 800px;
+    display: none;
+    text-align: center;
+}
+.main .heading{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 60px 80px;
+    text-align: center;
+    color: #253263;
+}
+.main .image img{
+    margin-top: 60px;
+    height: 600px;
+    width: 500px ;
+    padding-bottom: 0px;
+}
+
+.para{
+    margin-top: -90px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 25%;
+    text-align: center;
+    color: #253263;
+}
+.button{
+    color: white;
+    background-color: #132d84 ;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#page2{
+    background-color: #ffedcb;
+    height: auto;
+    text-align: center;
+    width: 800px;
+}
+.main-2 .para{
+    font-size: 40px;
+    padding: 0px;
+}
+.main-2 .image img{
+    margin-top: 10px;
+    height: 350px;
+    width: 400px ;
+    padding: 90px;
+}
+.types{
+    background-color: #ffedcb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.items{
+    display: flex;
+    background-color:#ffe2ab;
+    height: 250px;
+    width: 600px;
+    border-radius: 50px;
+}
+.left{
+    width: 30%;
+}
+.left img{
+    margin: 10px;
+    height: 200px;
+}
+.right{
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+.bottom{
+    padding-bottom: 20px;
+}
